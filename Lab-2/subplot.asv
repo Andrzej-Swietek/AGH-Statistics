@@ -1,0 +1,16 @@
+clc;clear;
+k1 = 0.5;
+k2 = 1;
+x = linspace(-2*pi,2*pi);
+y = k1* sin(k1*x);
+g = cos( k2*x );
+
+subplot(2,2,1)
+plot(x,y)
+subtitle("k1* sin(k1*x)")
+
+
+%  2 iwersze 2 kolumny i pozycja w gridzie
+subplot(2,2,2)
+plot(x,g)
+subtitle("cos( k_{2} * x )")
