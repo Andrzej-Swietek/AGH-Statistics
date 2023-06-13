@@ -22,7 +22,6 @@ dx = hist.BinWidth; % szerokość słupków
 % 3
 x = -6:0.1:10;
 % y = (1/(sqrt(2*pi)*exp((-1/2)*((x+2)/1).^2))).*0.2 + (1/(2*(sqrt(2*pi))*exp((-1/2)*((x-4)/2).^2)))*0.8; 
-% NIE PISAĆ JAK DEBIL
 % TYLKO UŻYWAĆ JUŻ GOTOWYCH FUNKCJI
 % BO MOJE I TAK NIE DZIAŁAJĄ
 y =  normpdf(x,-2,1)*p1 +  normpdf(x,4,2)*p2;
